@@ -21,7 +21,7 @@ function App() {
     let response = await makeRequest({ prompt });
     const responseData = response.data;
 
-    response = responseData.split('\n').map(line => <p>{line}</p>);
+    response = responseData.split('\n').map((line, index) => <p key={index}>{line}</p>);
 
     setChatLog(prevChatLog => [
       ...prevChatLog,
