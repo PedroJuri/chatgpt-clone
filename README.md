@@ -2,6 +2,7 @@
 
 <p>Aqui foi introiudizo um clone do ChatGPT, utilizando de uma integração com a API Oficial da OpenAI</p>
 
+![1688149662859](image/README/1688149662859.png)
 
 ### Executando o Back-End (Server)?
 
